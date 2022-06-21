@@ -38,7 +38,6 @@ class main:
 
         return f'> We have found {len(imposter)} imposter accounts.\n'
 
-
 Main = main()
 
 try: 
@@ -49,8 +48,6 @@ try:
 except FileNotFoundError:
     print('> Error: File not found.')
     exit()
-
-
 
 print(Main.save_data(follow, following, 'imposter.txt'))
 
