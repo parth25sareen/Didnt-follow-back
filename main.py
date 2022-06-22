@@ -56,4 +56,3 @@ print('> Created by: @parth25sareen at https://github.com/parth25sareen \n')
 print('-----------------------------------------------------')
 
 input('> Press enter to exit')
-
